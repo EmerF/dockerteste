@@ -27,7 +27,7 @@ public class Inicial {
 	      PDDocument document = new PDDocument();    
 	       
 	      //Saving the document
-	      document.save("test_pdf_container.pdf");
+	      document.save("/usr/tmp/test_pdf_container.pdf");
 	         
 	      System.out.println("Criado pdf de teste");  
 	    
